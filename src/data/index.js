@@ -49,11 +49,32 @@ const appData = {
     },
     skills: {
         title: 'Skills',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. \nAspernatur distinctio dolore dolores omnis quaerat quis saepe sapiente sequi totam vero?'
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. \nAspernatur distinctio dolore dolores omnis quaerat quis saepe sapiente sequi totam vero?',
+        contents: [
+            {
+                title: 'html',
+                value: '80%'
+            },
+            {
+                title: 'css',
+                value: '80%'
+            },
+            {
+                title: 'react',
+                value: '50%'
+            },
+        ]
     },
     contact: {
         title: 'Contact',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. \nAspernatur distinctio dolore dolores omnis quaerat quis saepe sapiente sequi totam vero?'
+        contents: [
+            {
+                placeText: 'Your Name*'
+            },
+            {
+                placeText: 'Your Email*'
+            },
+        ]
     },
     footer: {
         copyrights: '© SHIN HYEEUN 2020 | All Right Reserved'
