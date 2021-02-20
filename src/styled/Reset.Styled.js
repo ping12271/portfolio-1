@@ -12,4 +12,7 @@ export const GlobalStyle = createGlobalStyle`
     vertical-align: top;
     max-width: 100%;
   }
+  input {
+    border: none;
+  }
 `;

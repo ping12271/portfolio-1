@@ -3,7 +3,7 @@ import styled from "styled-components";
 import {ContentContainer, SectionContainer} from "../Layout/Layout.Styled";
 import SectionTitle from "../Title/SectionTitle";
 import appData from "../../../data";
-import FormItem from "../Items/FormItem";
+import FormList from "../List/FormList";
 
 const Contact = () => {
 
@@ -11,7 +11,7 @@ const Contact = () => {
     <Container>
         <ContentContainer>
             <SectionTitle title={appData.contact.title} description={appData.contact.description} />
-            <FormItem/>
+            <FormList data={appData.contact.contents}/>
         </ContentContainer>
     </Container>
   )

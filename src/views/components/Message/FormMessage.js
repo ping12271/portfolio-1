@@ -1,11 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 
-const FormItem = () => {
+const FormMessage = ({message}) => {
+
+    if(!message) return null;
 
   return (
     <Container>
-        FormItem
+        {message}
     </Container>
   )
 }
@@ -14,4 +16,4 @@ const Container = styled.div`
 
 `;
 
-export default FormItem;
+export default FormMessage;

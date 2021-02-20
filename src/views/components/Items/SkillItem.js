@@ -35,7 +35,7 @@ const ContainerBar = styled.div`
 `;
 
 const Value = styled.div`
-  width: ${props => props.value};
+  width: ${props => props.value}%;
   background-color: darkred;
   height: 5px;
 `;

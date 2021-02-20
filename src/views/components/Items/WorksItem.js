@@ -66,8 +66,8 @@ const Tags = styled.div`
     padding: 4px 8px 2px;
     border-radius: 2px;
     background: #eee;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin-right: 7px;
+    margin-bottom: 7px;
   }
 `;
 

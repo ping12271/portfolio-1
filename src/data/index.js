@@ -53,15 +53,15 @@ const appData = {
         contents: [
             {
                 title: 'html',
-                value: '80%'
+                value: 80
             },
             {
                 title: 'css',
-                value: '80%'
+                value: 80
             },
             {
                 title: 'react',
-                value: '50%'
+                value: 50
             },
         ]
     },
@@ -69,10 +69,20 @@ const appData = {
         title: 'Contact',
         contents: [
             {
-                placeText: 'Your Name*'
+                placeholder: 'Your Name*',
+                rate: 0.5
             },
             {
-                placeText: 'Your Email*'
+                placeholder: 'Your Email*',
+                rate: 0.5
+            },
+            {
+                placeholder: 'Your subject*',
+                rate: 1
+            },
+            {
+                placeholder: 'Your messages*',
+                rate: 1
             },
         ]
     },
